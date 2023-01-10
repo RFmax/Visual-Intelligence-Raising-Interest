@@ -9,14 +9,14 @@ const App = () => (
       </div>
     </div>
     
-
     <div className="bg-primary flex justify-center items-start">
       <div className="xl:max-w-[1600px] w-full">
           <Routes>
+            <Route path="/" element ={<Hero />} />
             <Route path="/home" element ={<Hero />} />
             <Route path="/background" element ={<Background />} />
-            <Route path="/Examples" element ={<Examples />} />
-            <Route path="/About" element ={<About />} />
+            <Route path="/examples" element ={<Examples />} />
+            <Route path="/about" element ={<About />} />
           </Routes>
       </div>
     </div>
