@@ -1,5 +1,8 @@
 import React from 'react'
 import { diagram } from '../assets';
+import Facts from './Facts';
+import Relationship from './Relationship';
+import Application from './Application';
 
 const Hero = () => (
   <section>
@@ -14,7 +17,10 @@ const Hero = () => (
         <img src={diagram} alt="diagram" className="w-[80%] h-[80%]"  />
       </div>
     </div>
-  </section>
+    < Facts />          
+    < Relationship />
+    < Application /> 
+  </section> 
 )
 
 

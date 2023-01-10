@@ -2,17 +2,21 @@
 
 export const navLinks = [
     {
-        id: 'Home',
+        id: 'home',
         title: 'Home'
     },
     {
-        id: 'Background',
+        id: 'background',
         title: 'Background'
     },
     {
-        id: 'Examples',
+        id: 'examples',
         title: 'Examples'
     },
+    {
+        id: 'about',
+        title: 'About'
+    }
 ]
 
 export const facts = [
