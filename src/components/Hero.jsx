@@ -17,11 +17,10 @@ const Hero = () => (
         <img src={diagram} alt="diagram" className="w-[80%] h-[80%]"  />
       </div>
     </div>
+    <div>
     < Facts />          
-    < Relationship />
-    < Application /> 
+    </div>
   </section> 
 )
-
 
 export default Hero
