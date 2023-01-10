@@ -1,4 +1,5 @@
-import { Navbar, Hero, Facts, Relationship, Application } from "./components";
+import { Navbar, Hero, Background, Examples, About } from "./components";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -7,18 +8,16 @@ const App = () => (
         <Navbar />
       </div>
     </div>
+    
 
     <div className="bg-primary flex justify-center items-start">
       <div className="xl:max-w-[1600px] w-full">
-        <Hero />
-      </div>
-    </div>
-
-    <div className="bg-primary flex justify-center items-center px-6 ">
-      <div className="xl:max-w-[1600px] w-full">
-        <Facts />
-        <Relationship />
-        <Application /> 
+          <Routes>
+            <Route path="/home" element ={<Hero />} />
+            <Route path="/background" element ={<Background />} />
+            <Route path="/Examples" element ={<Examples />} />
+            <Route path="/About" element ={<About />} />
+          </Routes>
       </div>
     </div>
   </div>
