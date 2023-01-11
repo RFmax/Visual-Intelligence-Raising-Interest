@@ -5,7 +5,8 @@ import Relationship from './Relationship';
 import Application from './Application';
 
 const Hero = () => (
-  <section>
+ <div>
+    <section>
     <div className='flex flex-row w-full items-start'>
       <div className='flex flex-col justify-start mt-[100px]'>
         <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">Visual <br /> Intelligence</h1>
@@ -18,9 +19,14 @@ const Hero = () => (
       </div>
     </div>
     <div>
-    < Facts />          
+    < Facts />    
+    </div>
+    <div>
+      <Relationship / >
+      <Application / >
     </div>
   </section> 
+ </div>
 )
 
 export default Hero
