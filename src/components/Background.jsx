@@ -36,7 +36,7 @@ const Background = () => (
             </div>
         </div>
 
-        <div className='flex flex-row items-start mt-10' >
+        <div className='flex flex-row items-start mt-[100px]' >
             <div className='flex flex-1 justify-start'>
                 <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[75%] h-[75%]' />
             </div>

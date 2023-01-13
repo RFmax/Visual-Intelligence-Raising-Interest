@@ -1,4 +1,4 @@
-
+import { visualday, visualdayblack } from "../assets";
 
 export const navLinks = [
     {
@@ -35,4 +35,13 @@ export const facts = [
         title: "Understanding Visuals",
         value: "Learn how to read visuals"
     },
+]
+
+export const dayVisual = [
+    {
+        img: visualday
+    },
+    {
+        img: visualdayblack
+    }
 ]
