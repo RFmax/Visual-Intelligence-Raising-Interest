@@ -1,4 +1,4 @@
-import { Navbar, Hero, Background, Examples, About } from "./components";
+import { Navbar, Hero, Background, Examples, About, Footer } from "./components";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => (
@@ -20,6 +20,13 @@ const App = () => (
           </Routes>
       </div>
     </div>
+
+    <div className="bg-primary w-full items-start">
+      <div className="flex">
+
+      </div>
+    </div>
+
   </div>
 )
 

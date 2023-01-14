@@ -12,6 +12,9 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --red-gradient: linear-gradient(
+    0deg, rgba(255,230,252,1) 0%, 
+    rgba(255,125,152,1) 100%)
 }
 
 * {
@@ -124,7 +127,7 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: var(--red-gradient);
 }
 
 .blue__gradient {

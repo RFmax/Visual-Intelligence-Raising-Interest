@@ -6,6 +6,8 @@ import Relationship from './Relationship';
 import Background from "./Background";
 import Examples from "./Examples";
 import About from "./About";
+import Review from "./Review";
+import Footer from "./Footer";
 
 // Export All Components 
 export {
@@ -16,5 +18,7 @@ export {
     Relationship,
     Background,
     Examples,
-    About
+    About,
+    Review,
+    Footer
 };

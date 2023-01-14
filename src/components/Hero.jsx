@@ -3,6 +3,8 @@ import { diagram } from '../assets';
 import Facts from './Facts';
 import Relationship from './Relationship';
 import Application from './Application';
+import Review from './Review';
+import { feedback } from '../constants';
 
 const Hero = () => (
  <div>
@@ -24,6 +26,13 @@ const Hero = () => (
     <div>
       <Relationship / >
       <Application / >
+      <div className='flex flex-col items-center'>
+        <h2 className='flex-1 font-montserrat font-semibold text-[36px] text-gradient leading-[24px] py-5'>
+          Student Opinion's</h2>
+        <div className="flex flex-wrap items-center justify-center w-full feedback-container relative z-[1]">
+          {feedback.map((card) => <Review key={card.id} {...card} />)}
+        </div>
+      </div>
     </div>
   </section> 
  </div>
