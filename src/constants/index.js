@@ -48,15 +48,19 @@ export const dayVisual = [
 
 export const footerLinks  = [
     {
-        title: "Usefull Links",
+        title: "Collaboration",
         links: [
             {
-                name: "Zuyd",
+                name: "Hogeschool Zuyd",
                 link: "https://www.zuyd.nl/",
             },
             {
-                name: "HDILab",
+                name: "HDI Lab",
                 link: "https://hdilab.com/"
+            },            
+            {
+                name: "Brightlands SSC",
+                link: "https://www.brightlands.com/en/brightlands-smart-services-campus"
             },
         ]
     }

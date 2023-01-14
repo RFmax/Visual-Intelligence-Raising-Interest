@@ -123,11 +123,11 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--red-gradient);
 }
 
 .feedback-card:hover {
-  background: var(--red-gradient);
+  background: transparent;
 }
 
 .blue__gradient {

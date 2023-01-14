@@ -18,15 +18,9 @@ const App = () => (
             <Route path="/examples" element ={<Examples />} />
             <Route path="/about" element ={<About />} />
           </Routes>
+          <Footer />
       </div>
     </div>
-
-    <div className="bg-primary w-full items-start">
-      <div className="flex">
-
-      </div>
-    </div>
-
   </div>
 )
 
