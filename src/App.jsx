@@ -9,7 +9,7 @@ const App = () => (
       </div>
     </div>
     
-    <div className="bg-primary flex justify-center items-start">
+    <div className="bg-primary flex justify-center items-start sm:mx-16">
       <div className="xl:max-w-[1600px] w-full">
           <Routes>
             <Route path="/" element ={<Hero />} />

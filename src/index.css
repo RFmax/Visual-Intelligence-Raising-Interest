@@ -22,9 +22,9 @@
 }
 
 .text-gradient {
-  background: linear-gradient(90deg, 
-  rgba(30,59,171,1) 10%, 
-  rgba(0,212,255,1) 60%);
+  background: linear-gradient(270deg,
+  rgba(255,165,190,1) 0%, 
+  rgba(255,0,53,1) 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -128,6 +128,7 @@
 
 .feedback-card:hover {
   background: transparent;
+  border-width: 1px; 
 }
 
 .blue__gradient {

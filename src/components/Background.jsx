@@ -3,8 +3,8 @@ import { charlesjosephminard, florencenightingale, mortalitydiagram, napoleonflo
 
 const Background = () => (
     <div className='flex flex-col w-full'>
-        <div className='flex flex-row items-start mb-[400px]'>
-            <div className='flex flex-col justify-start mt-[100px]'>
+        <div className='flex flex-row items-start justify-between py-10 mt-10'>
+            <div className='flex flex-col justify-start mt-12'>
                 <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">Background</h1>
                 <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[650px] mt-8'>Although data visualization is a 
                 trending sector and field of knowledge in our days, its origins come from centuries ago, when not even computers or Internet existed. 
@@ -12,13 +12,16 @@ const Background = () => (
                 data visualizations and dashboards. <br className='sm:block hidden'/>By hand drawing and with simple stationery, impressive visualizations for their respective  historical moment were created. 
                 Two well-known cases are: </p>
             </div>
+            <div className='flex justify-end w-[600px] h-[600px] bg-[red]'>
+                <p>IMAGE PLACEHOLDER?</p>
+            </div>
         </div>
 
-        <div className='flex flex-row items-start' >
-            <div className='flex flex-col max w-[650px] items-start'>
-                <div className='flex flex-col items-center '>
-                    <img src={charlesjosephminard} alt="minard" className='w-[50%] h-[50%]'/>
-                    <h2 className='font-montserrat font-normal text-[16px] mt-5'>Charles Joseph Minard (1781-1870)</h2>
+        <div className='flex flex-row items-start py-6 mt-12' >
+            <div className='flex flex-col max w-[650px]'>
+                <div className='flex flex-col items-start '>
+                    <img src={charlesjosephminard} alt="minard" className='w-[100px] h-[140px] ml-10'/>
+                    <h2 className='font-montserrat font-normal text-[16px] text-center mt-4'>Charles Joseph Minard <br /> (1781-1870)</h2>
                 </div>
                 <div>
                     <h2 className='font-montserrat font-semibold text-[32px] text-gradient leading-[64px]'>Minard's Map</h2>
@@ -32,19 +35,19 @@ const Background = () => (
                 </div>
             </div>
             <div className='flex flex-1 justify-end'>
-                <img src={napoleonflowmap} alt="napoleonflowmap" className='w-[75%] h-[75%]' />
+                <img src={napoleonflowmap} alt="napoleonflowmap" className='w-[850px] h-[400px]' />
             </div>
         </div>
 
-        <div className='flex flex-row items-start mt-[100px]' >
+        <div className='flex flex-row items-start mt-[100px] py-6' >
             <div className='flex flex-1 justify-start'>
-                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[75%] h-[75%]' />
+                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[850px] h-[400px]' />
             </div>
 
             <div className='flex flex-col max w-[650px] items-end'>
                 <div className='flex flex-col items-center '>
-                    <img src={florencenightingale} alt="florence" className='w-[50%] h-[50%]'/>
-                    <h2 className='font-montserrat font-normal text-[16px] mt-5'>Florence Nightingale (1820-1910)</h2>
+                    <img src={florencenightingale} alt="florence" className='w-[100px] h-[140px]'/>
+                    <h2 className='font-montserrat font-normal text-[16px] mt-4 text-center'>Florence Nightingale <br /> (1820-1910)</h2>
                 </div>
                 <div className='flex flex-col items-end'>
                     <h2 className='font-montserrat font-semibold text-[32px] text-gradient leading-[64px]'>Nightingale's Diagram</h2>

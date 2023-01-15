@@ -4,7 +4,7 @@ import { footerLinks } from '../constants';
 
 const Footer = () => (
     <section className='flex flex-col py-6'>
-        <div className='flex flex-row w-full justify-between border-b-[1.5px] border-b-[#FF7D98] border-t-[1.5px] border-t-[#FF7D98] py-4'>
+        <div className='flex flex-row w-full justify-between border-t-[1.5px] border-t-[#FF7D98] py-4'>
             <div className='flex flex-col justify-start'>
                 <img src={logo} alt="logo" className='w-[64px] h-[64px] object-contain' />
                 <p className='font-montserrat font-normal text-[14px] leading-[20px] max-w-[250px] mt-4'> Created For Zuyd University of Applied Sciences.</p>
