@@ -3,7 +3,7 @@ import { logo } from '../assets';
 import { footerLinks } from '../constants';
 
 const Footer = () => (
-    <section className='flex flex-col py-6'>
+    <section className='flex flex-col pt-6'>
         <div className='flex flex-row w-full justify-between border-t-[1.5px] border-t-[#FF7D98] py-4'>
             <div className='flex flex-col justify-start'>
                 <img src={logo} alt="logo" className='w-[64px] h-[64px] object-contain' />
@@ -24,7 +24,7 @@ const Footer = () => (
             </div>
         </div>
 
-        <div className='mt-5 '>
+        <div className='mt-1 '>
             <p className='font-montserrat font-light text-center text-[16px] leading-[26px]'>2023 Minor Visual Intelligence. All Rights Reserved.</p>
         </div>
     </section>
