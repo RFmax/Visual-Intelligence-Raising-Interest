@@ -5,7 +5,7 @@ const Relationship = () => (
     <div className='flex flex-row justify-between py-12'>
       <div className='flex flex-col justify-start'>
         <h2 className='font-montserrat font-semibold text-[48px] leading-[64px] text-gradient'>
-          Relationship With Other Fields</h2>
+          Relationship With Other Fields </h2>
         <p className='font-montserrat font-normal text-[16px] leading-normal max-w-[850px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam architecto repellat quae eaque quo magni quam voluptatibus, 
           tempora amet optio doloribus in perferendis qui, vitae cumque distinctio? Magni, in quibusdam.</p>
       </div>

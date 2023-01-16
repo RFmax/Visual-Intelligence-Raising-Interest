@@ -35,13 +35,13 @@ const Background = () => (
                 </div>
             </div>
             <div className='flex flex-1 justify-end'>
-                <img src={napoleonflowmap} alt="napoleonflowmap" className='w-[850px] h-[400px]' />
+                <img src={napoleonflowmap} alt="napoleonflowmap" className='w-[850px] h-[400px] rounded-xl' />
             </div>
         </div>
 
         <div className='flex flex-row items-start mt-[100px] py-6' >
             <div className='flex flex-1 justify-start'>
-                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[850px] h-[400px]' />
+                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[850px] h-[400px] rounded-xl' />
             </div>
 
             <div className='flex flex-col max w-[650px] items-end'>

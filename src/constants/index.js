@@ -15,7 +15,7 @@ export const navLinks = [
     },
     {
         id: 'about',
-        title: 'About'
+        title: 'Get In Touch'
     }
 ]
 
@@ -23,17 +23,17 @@ export const facts = [
     {
         id: "fact-1",
         title: "Storytelling",
-        value: "Learn how to tell a story through a visual"
+        value: "How to tell a story through a visual"
     },
     {
         id: "fact-2",
         title: "Creating Visuals",
-        value: "Learn how to create simple but effective visuals"
+        value: "How to create simple but effective visuals"
     },
     {
         id: "fact-3",
         title: "Understanding Visuals",
-        value: "Learn how to read visuals"
+        value: "How to read visuals"
     },
 ]
 
