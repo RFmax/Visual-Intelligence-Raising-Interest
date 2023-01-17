@@ -1,4 +1,4 @@
-import { logo, visualday, visualdayblack } from "../assets";
+import { logo, visualday, visualdayblack, visual_luc, visual_maria, visual_victory, visual_yuting1, visual_yuting2 } from "../assets";
 
 export const navLinks = [
     {
@@ -42,7 +42,19 @@ export const dayVisual = [
         img: visualday
     },
     {
-        img: visualdayblack
+        img: visual_maria
+    },
+    {
+        img: visual_yuting1
+    },
+    {
+        img: visual_yuting2
+    },
+    {
+        img: visual_luc
+    },
+    {
+        img: visual_victory
     }
 ]
 

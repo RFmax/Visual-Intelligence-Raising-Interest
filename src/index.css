@@ -127,8 +127,7 @@
 }
 
 .feedback-card:hover {
-  background: transparent;
-  border-width: 1px; 
+  background: transparent; 
 }
 
 .blue__gradient {
