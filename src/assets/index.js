@@ -11,6 +11,11 @@ import visual_maria from './visual_maria.png';
 import visual_yuting1 from './visual_yuting1.png';
 import visual_yuting2 from './visual_yuting2.jpeg';
 import visual_victory from './visual_victory.png';
+import visual_joelle from './visual_joelle.png';
+import ikea_visual from './ikea_visual.png';
+import car_visual from './car_visual.png';
+import nasa_visual from './nasa_visual.png';
+import covid_visual from './covid_visual.png';
 
 
 export {
@@ -26,5 +31,10 @@ export {
     visual_maria,
     visual_yuting1,
     visual_yuting2,
-    visual_victory
+    visual_victory,
+    visual_joelle,
+    ikea_visual,
+    car_visual,
+    nasa_visual,
+    covid_visual
 }
