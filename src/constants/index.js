@@ -7,7 +7,7 @@ export const navLinks = [
     },
     {
         id: 'background',
-        title: 'Background'
+        title: 'History'
     },
     {
         id: 'examples',
@@ -23,17 +23,17 @@ export const facts = [
     {
         id: "fact-1",
         title: "Storytelling",
-        value: "How to tell a story through a visual"
+        value: "Tell Stories Through Visuals"
     },
     {
         id: "fact-2",
         title: "Creating Visuals",
-        value: "How to create simple but effective visuals"
+        value: "Creative Ideas For Visuals"
     },
     {
         id: "fact-3",
         title: "Understanding Visuals",
-        value: "How to read visuals"
+        value: "What Is The Message Of The Visual"
     },
 ]
 
@@ -86,7 +86,7 @@ export const feedback = [
         id: "feedback-1",
         content: "I have worked with processing data in many ways. But never before in terms of making data visually appealing.",
         name: "Floor",
-        title: "Student",
+        title: "Student European Studies",
         img: logo
     },
     {
@@ -100,7 +100,7 @@ export const feedback = [
         id: "feedback-3",
         content: "The information about the minor appealed to me and it suits my education",
         name: "Luc",
-        title: "Student HBO-IB",
+        title: "Student International Business",
         img: logo
     },
     {
@@ -114,16 +114,16 @@ export const feedback = [
 
 export const relationship_visuals = [
     {
-        img: ikea_visual,
-        title: "Ikea Instruction Manual"
+        img: nasa_visual,
+        title: "Meteorites Falling"
     },
     {
         img: covid_visual,
         title: "History of Pandemics"
     },
     {
-        img: nasa_visual,
-        title: "Meteorites Falling"
+        img: ikea_visual,
+        title: "Ikea Instruction Manual"
     },
     {
         img: car_visual,

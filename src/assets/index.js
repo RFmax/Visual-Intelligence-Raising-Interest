@@ -16,6 +16,7 @@ import ikea_visual from './ikea_visual.png';
 import car_visual from './car_visual.png';
 import nasa_visual from './nasa_visual.png';
 import covid_visual from './covid_visual.png';
+import history_banner from './history_banner.png';
 
 
 export {
@@ -36,5 +37,6 @@ export {
     ikea_visual,
     car_visual,
     nasa_visual,
-    covid_visual
+    covid_visual,
+    history_banner
 }

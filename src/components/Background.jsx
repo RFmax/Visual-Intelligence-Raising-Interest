@@ -1,19 +1,19 @@
 import React from 'react'
-import { charlesjosephminard, florencenightingale, mortalitydiagram, napoleonflowmap } from '../assets'
+import { charlesjosephminard, florencenightingale, history_banner, mortalitydiagram, napoleonflowmap } from '../assets'
 
 const Background = () => (
     <div className='flex flex-col w-full'>
         <div className='flex flex-row items-start justify-between py-10 mt-10'>
-            <div className='flex flex-col justify-start mt-12'>
-                <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">Background</h1>
-                <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[650px] mt-8'>Although data visualization is a 
+            <div className='flex flex-col justify-start items-center mt-[150px]'>
+                <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">History</h1>
+                <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[800px] mt-8 text-center'>Although data visualization is a 
                 trending sector and field of knowledge in our days, its origins come from centuries ago, when not even computers or Internet existed. 
                 Primitive illustrations come from the first human beings, but it was on the 19th century when exceptional people created out of the ordinary visuals that look as the basis of today's 
-                data visualizations and dashboards. <br className='sm:block hidden'/>By hand drawing and with simple stationery, impressive visualizations for their respective  historical moment were created. 
+                data visualizations and dashboards. By hand drawing and with simple stationery, impressive visualizations for their respective  historical moment were created. 
                 Two well-known cases are: </p>
             </div>
-            <div className='flex justify-end w-[600px] h-[600px] bg-[red]'>
-                <p>IMAGE PLACEHOLDER?</p>
+            <div className='flex justify-end w-[850px] h-[650px]'>
+                <img src={history_banner} alt="banner" className='rounded-xl object-contain ' />
             </div>
         </div>
 
@@ -51,7 +51,7 @@ const Background = () => (
                 </div>
                 <div className='flex flex-col items-end'>
                     <h2 className='font-montserrat font-semibold text-[32px] text-gradient leading-[64px]'>Nightingale's Diagram</h2>
-                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-5 text-right'>
+                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-5 text-center'>
                     "Diagram of the causes of mortality in the army in the East" (1858): 
                     a colored pie chart to illustrate causes of death in the British Army. 
                     By Florence Nightingale, known as the founder of modern nursing and also a 

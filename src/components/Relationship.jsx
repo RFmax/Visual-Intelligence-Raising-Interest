@@ -20,10 +20,10 @@ const Relationship = () => {
 
 return (
   <section>
-    <div className='flex flex-row justify-between py-12'>
+    <div className='flex flex-row justify-between py-12 mb-[175px]'>
       <div className='flex flex-col justify-start'>
-        <h2 className='font-montserrat font-semibold text-[40px] mt-[150px] mb-6'>
-          Relationship <br /> With Other Fields </h2>
+        <h2 className='font-montserrat font-semibold text-[40px] mt-[200px] mb-6'>
+          <span className='text-gradient'>Relationship</span> <br /> <span className='text-red'>With Other Fields</span> </h2>
         <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[600px]'>
         Data visualizations can be applied everywhere: for any type of business results and 
         strategies, news, historical records, maps… Some are interactive and dynamic; others 
