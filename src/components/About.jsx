@@ -4,10 +4,10 @@ import { program_visualisation } from '../assets';
 
 const About = () => (
     <section className='flex flex-col'>
-      <div className='flex flex-row items-center justify-evenly py-6'>
+      <div className='flex flex-row max-sm:flex-col items-center justify-evenly py-6'>
         <div className='flex flex-col items-center justify-center'>
           <h2 className='font-montserrat font-semibold text-[40px] text-center leading-normal py-6'>Information On The Minor 
-          <br /> <span className='text-gradient'>Visual Intelligence</span> </h2>
+          <br className="sm:block hidden" /> <span className='text-gradient'>Visual Intelligence</span> </h2>
           <p className='font-montserrat font-normal text-[16px] leading-normal max-w-[1000px] text-justify'>
           Within the ZUYD University of Applied Sciences there is a possibility to apply for a minor in Visual Intelligence. 
           In this minor students learn, based on smart use of data and visualisations, to find, recognise, develop new insights and opportunities, 
@@ -18,7 +18,7 @@ const About = () => (
           <a className='hover:text-[red] text-black text-decoration-line: underline' href="https://www.kiesopmaat.nl/modules/zuyd/IB/142090/">: www.kiesopmaat.nl</a> 
           </p>
         </div>
-        <div className='flex justify-end'>
+        <div className='flex justify-end max-sm:justify-center'>
           <img src={program_visualisation} alt="programs" className='object-contain w-[50%] h-[50%] md:object-scale-down' />
         </div>
       </div>
@@ -69,7 +69,7 @@ const About = () => (
         </ul>
       </div>
 
-      <div className='flex flex-row justify-evenly py-6'>
+      <div className='flex flex-row max-sm:flex-col justify-evenly py-6'>
         <div className='flex flex-col'>
           <h2 className='font-montserrat font-semibold text-[40px]'>Contact</h2>
           <h3 className='font-montserrat font-medium text-[18px] leading-normal'> Lecturer <br /> Professor Ed Overes</h3>

@@ -20,7 +20,7 @@ const Relationship = () => {
 
 return (
   <section>
-    <div className='flex flex-row justify-between py-12 mb-[175px]'>
+    <div className='flex flex-row max-sm:flex-col justify-between py-12 mb-[175px]'>
       <div className='flex flex-col justify-start'>
         <h2 className='font-montserrat font-semibold text-[40px] mt-[200px] mb-6'>
           <span className='text-black'>Relationship</span> <br /> <span className='text-gradient'>With Other Fields</span> </h2>

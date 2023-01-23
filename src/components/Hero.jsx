@@ -9,7 +9,7 @@ import { feedback } from '../constants';
 const Hero = () => (
  <div>
     <section>
-    <div className='flex flex-row w-full items-start justify-between'>
+    <div className='flex flex-row max-sm:flex-col w-full items-start justify-between'>
       <div className='flex flex-col justify-start mt-[100px]'>
         <h1 className="font-montserrat font-bold text-[64px] leading-[75px]"> <span className='text-black'> Visual </span> <br /> <span className='text-gradient'> Intelligence </span> </h1>
         <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[650px] mt-8 text-justify'>

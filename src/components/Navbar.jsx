@@ -7,7 +7,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className='w-full flex py-6 justify-between items-center bg-gradient rounded-b-[5px]'>
+        <nav className='w-full flex py-6 px-6 justify-between items-center bg-gradient rounded-b-[5px]'>
         <img src={logo} alt="logo" className='w-[64px] h-[64px] ml-2' />
 
         <ul className='list-none sm:flex hidden justify-end items-start flex-1'>
