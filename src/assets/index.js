@@ -18,6 +18,8 @@ import nasa_visual from './nasa_visual.png';
 import covid_visual from './covid_visual.png';
 import history_banner from './history_banner.png';
 import program_visualisation from './program_visualisation.png';
+import close from './close.svg';
+import menu from './menu.svg';
 
 export {
     logo,
@@ -39,5 +41,7 @@ export {
     nasa_visual,
     covid_visual,
     history_banner,
-    program_visualisation
+    program_visualisation,
+    close,
+    menu
 }
