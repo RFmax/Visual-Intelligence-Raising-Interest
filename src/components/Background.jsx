@@ -3,7 +3,7 @@ import { charlesjosephminard, florencenightingale, history_banner, mortalitydiag
 
 const Background = () => (
     <div className='flex flex-col w-full'>
-        <div className='flex flex-row items-start justify-between py-10 mt-10'>
+        <div className='flex flex-row items-start justify-between py-10 mt-10 z-1'>
             <div className='flex flex-col justify-start items-center mt-[150px]'>
                 <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">History</h1>
                 <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[800px] mt-8 text-center'>Although data visualization is a 
@@ -13,19 +13,19 @@ const Background = () => (
                 Two well-known cases are: </p>
             </div>
             <div className='flex justify-end w-[850px] h-[650px]'>
-                <img src={history_banner} alt="banner" className='rounded-xl object-contain ' />
+                <img src={history_banner} alt="banner" className='rounded-xl object-contain z-0 ' />
             </div>
         </div>
 
-        <div className='flex flex-row items-start py-6 mt-12' >
+        <div className='flex flex-row justify-evenly py-6 mt-12' >
             <div className='flex flex-col max w-[650px]'>
                 <div className='flex flex-col items-start '>
-                    <img src={charlesjosephminard} alt="minard" className='w-[100px] h-[140px] ml-10'/>
+                    <img src={charlesjosephminard} alt="minard" className='w-[100px] h-[140px] ml-10 object-contain'/>
                     <h2 className='font-montserrat font-normal text-[16px] text-center mt-4'>Charles Joseph Minard <br /> (1781-1870)</h2>
                 </div>
                 <div>
                     <h2 className='font-montserrat font-semibold text-[32px] text-gradient leading-[64px]'>Minard's Map</h2>
-                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-2'>
+                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-2 text-justify'>
                         “Carte figurative des pertes successives en hommes de 
                         l'Armée Française dans la campagne de Russie 1812-1813”
                         a poignant flow-map depiction of the fate of Napoleon's 
@@ -34,14 +34,14 @@ const Background = () => (
                         and in statistical graphics.</p>
                 </div>
             </div>
-            <div className='flex flex-1 justify-end'>
+            <div className='flex justify-end'>
                 <img src={napoleonflowmap} alt="napoleonflowmap" className='w-[850px] h-[400px] rounded-xl' />
             </div>
         </div>
 
         <div className='flex flex-row items-start mt-[100px] py-6' >
-            <div className='flex flex-1 justify-start'>
-                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[850px] h-[400px] rounded-xl' />
+            <div className='flex justify-start'>
+                <img src={mortalitydiagram} alt="mortalitydiagram" className='w-[850px] h-[400px] rounded-xl object-contain' />
             </div>
 
             <div className='flex flex-col max w-[650px] items-end'>
@@ -51,7 +51,7 @@ const Background = () => (
                 </div>
                 <div className='flex flex-col items-end'>
                     <h2 className='font-montserrat font-semibold text-[32px] text-gradient leading-[64px]'>Nightingale's Diagram</h2>
-                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-5 text-center'>
+                    <p className='font-montserrat font-normal text-[18px] leading-normal mt-5 text-justify'>
                     "Diagram of the causes of mortality in the army in the East" (1858): 
                     a colored pie chart to illustrate causes of death in the British Army. 
                     By Florence Nightingale, known as the founder of modern nursing and also a 

@@ -17,7 +17,7 @@ import car_visual from './car_visual.png';
 import nasa_visual from './nasa_visual.png';
 import covid_visual from './covid_visual.png';
 import history_banner from './history_banner.png';
-
+import program_visualisation from './program_visualisation.png';
 
 export {
     logo,
@@ -38,5 +38,6 @@ export {
     car_visual,
     nasa_visual,
     covid_visual,
-    history_banner
+    history_banner,
+    program_visualisation
 }

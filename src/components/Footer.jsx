@@ -3,7 +3,7 @@ import { logo } from '../assets';
 import { footerLinks } from '../constants';
 
 const Footer = () => (
-    <section className='flex flex-col pt-6'>
+    <section className='flex flex-col pt-6 sm:mx-5 mx-0'>
         <div className='flex flex-row w-full justify-between border-t-[1.5px] border-t-[#FF7D98] pt-4'>
             <div className='flex flex-col justify-start'>
                 <img src={logo} alt="logo" className='w-[64px] h-[64px] object-contain' />

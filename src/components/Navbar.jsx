@@ -9,13 +9,16 @@ const Navbar = () => (
         <ul className='list-none flex justify-end items-start flex-1'>
             {navLinks.map((nav, index) => (
                 <li key={nav.id}
-                className={`font-montserrat font-medium cursor-pointer text-[20px] text-red  
+                className={`font-montserrat font-medium cursor-pointer text-[20px] text-red
                 ${index === navLinks.length - 1 ? "mr-[50px]" : "mr-10"}`}>
                     <a href={`/${nav.id}`} className='text-white font-medium'>{nav.title}</a>
                 </li>
             ))}
         </ul>
     </nav>
+
+
+
 )
 
 
