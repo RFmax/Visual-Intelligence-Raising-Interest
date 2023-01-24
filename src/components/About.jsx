@@ -27,14 +27,7 @@ const About = () => (
       <div className='flex flex-col py-6 items-center'>
         <h2 className='font-montserrat font-semibold text-gradient text-[40px] py-6'>Collaboration</h2>
         <p className='font-montserrat font-normal text-[16px] leading-normal max-w-[1000px] text-center'>
-        Visual intelligence is not something new. Pre-historical art paintings 
-        on walls were actually one of the first visuals which needed to tell other people a certain story. 
-        However, due to the revelation computers are enabling many extraordinary software to transfer boring 
-        numbers into nifty graph's. Therefore, Zuyd University decided to collaborate with Brightlands to do more research 
-        and investigate more possibilities to represent exact data to humankind by creating visuals to easily understand information. 
-        For example, there has been a collaboration Kay Schröder who made a data visualisation called “Certain Uncertainty” 
-        which is nominated for the information is beautiful awards. This project displays the effects of climate change, especially water
-        scarcity in certain regions within the world. For more information about this project please click the following link
+        Visual intelligence is not something new. Prehistoric art paintings on walls were among the first type of visuals to tell people a particular story. However, with the revelation of computers, special software can turn boring numbers into ingenious graphs. Therefore, Zuyd University decided to collaborate with Brightlands to do more research and explore more possibilities to display exact data to mankind, by creating visuals to make information easy to understand. For example, Kay Schroeder collaborated on a data visualization called "Certain Uncertainty" that was nominated for the information is beautiful awards. This project shows the effects of climate change, particularly water scarcity in certain regions of the world. For more information about this project, click on the following link
         <a className='hover:text-[red] text-black text-decoration-line: underline' href="https://www.brightlands.com/en/brightlands-smart-services-campus/news/project-certain-uncertainty-nominated-information-beautiful">
          : Project Certain Uncertainty</a>
         </p>
@@ -43,28 +36,17 @@ const About = () => (
       <div className='flex flex-col py-6 items-center'>
         <h2 className='font-montserrat font-semibold text-gradient text-[40px] py-6'>Get In Touch</h2>
         <p className='font-montserrat font-normal text-[16px] leading-normal max-w-[1000px] text-center'>
-        Are you interested in a collaboration? With Brightlands, the HDI-Lab or just for your company or 
-        the company that you work for help solve an issue by integrating Visual Intelligence by the students 
-        of the minor? Please reach out to us with your question or problem and maybe we can help you raise t
-        he bar for you company to get to the next level. </p>
+        Are you interested in a collaboration to help solve an issue that needs the visualisation of data? The students of the minor visual intelligence can help you with that. Please reach out to us with your question or problem and maybe we can help you raise the bar on data visualization.  </p>
       </div>
 
       <div className='flex flex-col py-6 items-center'>
         <h2 className='font-montserrat font-semibold text-gradient text-[40px] py-6'>Internship @ Zuyd</h2>
         <p className='font-montserrat font-normal text-[16px] leading-normal max-w-[1000px] text-justify'>
-        Are you a bachelor or master's student, or perhaps even a graduate who's 
-        still looking for an internship at a company? Search no more! ZUYD University 
-        offers many interesting projects with other companies and universities 
-        where you can expand your knowledge about Visual Intelligence. 
-        The internship contract will be with ZUYD University of Applied science. Meaning that during the internship 
-        you will be a full-time employee and student at ZUYD, but you will work closely together with other companies through the HDI-Lab, 
-        Brightlands or another collaborating firm. Enabling you the great opportunity to work together with many renowned companies, 
-        who offer projects for a case study pending everything related to Visual Intelligence. Various subjects within these case studies can be outlined by, 
-        for example:</p>
+        Are you a bachelor or master's student, or perhaps even a graduate who's still looking for an internship at a company? Search no more! ZUYD University offers many interesting projects with other companies and universities where you can expand your knowledge of Visual Intelligence. The internship contract will be with ZUYD University of Applied science. Meaning that during the internship you will be a full-time employee and student at ZUYD, but you will work closely together with other companies through the HDI-Lab, Brightlands or another collaborating firm. Enabling you the great opportunity to work together with many renowned companies, who offer projects for a case study pending everything related to Visual Intelligence. Various subjects within these case studies can be outlined by, for example: </p>
         <ul className='list-disc list-inside xl:ml-8 text-[16px] mt-4 sm:ml-0' >
-          <li>Researching the optimal usage of big data</li>
-          <li>Allocating AI within various business processes at collaborating companies</li> 
-          <li>And/or establishing and researching the usage of cunning visuals to enhance and speed up various decision-making processes within a company</li>  
+          <li>Researching the optimal usage of big data.</li>
+          <li>Allocating AI within various business processes at collaborating companies.</li> 
+          <li>And/or establishing and researching the usage of cunning visuals to enhance and speed up various decision-making processes within a company.</li>  
           <li>And many other related subjects in which Visual Intelligence will eventually thrive!</li> 
         </ul>
       </div>

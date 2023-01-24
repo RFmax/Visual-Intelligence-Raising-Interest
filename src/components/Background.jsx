@@ -6,14 +6,17 @@ const Background = () => (
         <div className='flex flex-row max-sm:flex-col items-start justify-between py-10 mt-10 z-1'>
             <div className='flex flex-col justify-start items-center mt-[150px]'>
                 <h1 className="flex-1 font-montserrat font-bold text-[64px] text-gradient leading-[75px]">History</h1>
-                <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[800px] mt-8 text-center'>Although data visualization is a 
-                trending sector and field of knowledge in our days, its origins come from centuries ago, when not even computers or Internet existed. 
-                Primitive illustrations come from the first human beings, but it was on the 19th century when exceptional people created out of the ordinary visuals that look as the basis of today's 
-                data visualizations and dashboards. By hand drawing and with simple stationery, impressive visualizations for their respective  historical moment were created. 
-                Two well-known cases are: </p>
+                <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[800px] mt-8 text-center'>
+                Although data visualization is a trending sector and field of knowledge in our days, its origins 
+                date back to centuries ago, when computers or internet did not exist yet. Primitive illustrations 
+                come from the first human beings, but it was in the 19th century when exceptional people started 
+                creating visuals that are the basis of modern data visualizations and dashboards. By hand drawing 
+                and with simple stationery, impressive visualizations for their respective historical moment were 
+                created. Two well-known cases are: 
+                 </p>
             </div>
             <div className='flex justify-end w-[850px] h-[650px]'>
-                <img src={history_banner} alt="banner" className='rounded-xl object-contain z-0 ' />
+                <img src={history_banner} alt="banner" className='rounded-xl object-fit z-0 ' />
             </div>
         </div>
 

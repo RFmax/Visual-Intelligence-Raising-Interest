@@ -25,7 +25,7 @@ const Examples = () => {
   }
   
   return (
-  <div className='flex flex-col items-center'>
+  <div className='flex flex-col items-center z-[0]'>
     <h1 className='font-montserrat font-semibold text-[32px] text-gradient pt-6'> Visualizing your day </h1>
     <div className='flex flex-col max-w-[1200px] h-[750px] w-full relative group'>
       <div style={{backgroundImage: `url(${dayVisual[currentIndex].img})`}} className='w-full h-full rounded-xl bg-center bg-contain bg-no-repeat duration-500'></div>
