@@ -20,6 +20,7 @@ import history_banner from './history_banner.png';
 import program_visualisation from './program_visualisation.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import newoil from './newoil.png';
 
 export {
     logo,
@@ -42,6 +43,7 @@ export {
     covid_visual,
     history_banner,
     program_visualisation,
+    newoil,
     close,
     menu
 }

@@ -3,7 +3,7 @@ import { charlesjosephminard, florencenightingale, history_banner, mortalitydiag
 
 const Background = () => (
     <div className='flex flex-col w-full'>
-        <div className='flex flex-row max-sm:flex-col items-start justify-between py-10 mt-10 z-1'>
+        <div className='flex flex-row max-sm:flex-col items-start justify-between py-10 mt-10 z-1 max-sm:mt-0 max-sm:py-1'>
             <div className='flex flex-col justify-start items-center mt-[150px] bg-secondary p-6 rounded-l-2xl'>
                 <h1 className="flex-1 font-montserrat font-bold text-[64px] text-black leading-[75px]">History</h1>
                 <p className='font-montserrat font-normal text-[18px] leading-normal max-w-[800px] mt-8 text-center'>
