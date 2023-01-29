@@ -2,7 +2,7 @@ import React from 'react';
 import { ImQuotesLeft } from 'react-icons/im'
 
 const Review = ( {content, name, title, img }) => (
-    <div className='flex justify-between flex-col px-10 py-12 rounded-[20px] h-[370px] mr-[25px] max-w-[370px] my-10 border-[1px] feedback-card'>
+    <div className='flex justify-between flex-col px-8 py-12 rounded-[20px] h-[370px] mr-[25px] max-w-[370px] my-10 border-[1px] feedback-card'>
         <ImQuotesLeft size={20} />
         <p className='font-montserrat font-normal text-[18px] my-10'>{content}</p>
         <div className='flex flex-row'>

@@ -8,6 +8,7 @@ import Examples from "./Examples";
 import About from "./About";
 import Review from "./Review";
 import Footer from "./Footer";
+import Timeline from "./Timeline";
 
 // Export All Components 
 export {
@@ -20,5 +21,6 @@ export {
     Examples,
     About,
     Review,
+    Timeline,
     Footer
 };

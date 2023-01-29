@@ -38,11 +38,11 @@
 }
 
 .feedback-card {
-  background: var(--red-gradient);
+  background: transparent;
 }
 
 .feedback-card:hover {
-  background: transparent; 
+  background: #e5e5e5; 
 }
 
 .report-style-class {

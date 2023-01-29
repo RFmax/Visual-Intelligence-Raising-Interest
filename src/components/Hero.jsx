@@ -29,7 +29,7 @@ const Hero = () => (
       <Application / >
       <Relationship / >
       <div className='flex flex-col items-center'>
-        <h2 className='flex-1 font-montserrat font-semibold text-[36px] leading-[24px] py-5 text-tertiary'>
+        <h2 className='flex-1 font-montserrat font-semibold text-[36px] leading-[24px] py-5 text-black'>
           Experiences</h2>
         <div className="flex flex-wrap items-center justify-center w-full feedback-container relative z-[1]">
           {feedback.map((card) => <Review key={card.id} {...card} />)}
