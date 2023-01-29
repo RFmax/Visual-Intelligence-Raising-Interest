@@ -1,11 +1,12 @@
 # Visual-Intelligence-Raising-Interest
 Created for the minor Visual Intelligence Zuyd University of Applied Sciences.
+
 [link](https://visual-intelligence-raising-interest.pages.dev/)
 
 ## Pre-requisites to clone and run this project.
 1. Install Node.js
-2. In command line do: 'npm install' to install all project dependencies
-3. In command line do: 'npm run dev' to run the build locally.
+2. In command line do: `npm install` to install all project dependencies
+3. In command line do: `npm run dev` to run the build locally.
 
 ## Used libraries:
 1. React.js framework in javascript (Vite).
